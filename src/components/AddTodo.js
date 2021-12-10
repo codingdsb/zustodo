@@ -26,7 +26,7 @@ const AddTodo = () => {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button type="submit" className="submitbtn">
+      <button type="submit" className="submitbtn" disabled={!text}>
         Add
       </button>
     </form>
