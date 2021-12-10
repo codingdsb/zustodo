@@ -12,7 +12,7 @@ const App = () => {
     <div className="app">
       <h1>ZUSTODO: A Zustand.JS LocalStorage Todo App</h1>
       <img
-        src="https://raw.githubusercontent.com/Darshan-Bajeja/zustodo/gh-pages/zustand.png"
+        src="/zustand.png"
         alt="zustand logo"
         height="15%"
         style={{
